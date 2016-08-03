@@ -3,6 +3,7 @@
 	height: 200px;
 	width: 200px;
 	float: left;
+
 }
 
 .red {
@@ -10,6 +11,8 @@
 	height: 200px;
 	width: 200px;
 	float: left;
+
+
 }
 
 .blue {
@@ -17,6 +20,7 @@
 	height: 200px;
 	width: 200px;
 	float: left;
+
 }
 
 .green {
@@ -24,4 +28,9 @@
 	height: 200px;
 	width: 200px;
 	float: left;
+
+}
+
+h1 {
+	text-indent: 250px;
 }
