@@ -8,6 +8,20 @@ $(document).ready(function() {
 //var blue = 0;
 //var green = 0;
 
+//function colorPicker(yellow, red, blue, green) {
+	//this.yellow = yellow;
+	//this.red = red;
+	//this.blue = blue;
+	//this.green = green;
+
+}
+
+
+
+//function randomNumber(min, max){
+    //return Math.floor(Math.random() * (1 + max - min) + min);
+//}
+
 
 
 
@@ -17,12 +31,12 @@ $(document).ready(function() {
 		console.log("hi");
 	});
 
-
+//$("p").click(function(){
+    //$(this).hide();
+});
 	$('#red').on('click', function(event) {
 		$(this).append('<span>"YOU WERE WRONG!"</span>');
 		$(this).append('<button>Play Again</button>');
-		$('<input type="button" value="Refresh Page" onClick="window.location.reload(true)">');
-
 		console.log("it works");
 	});
 
